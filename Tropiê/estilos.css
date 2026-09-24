@@ -1,0 +1,183 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #3d2525;
+    background-color: #fff8f5;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #e85d04, #d63384);
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #ffffff ;
+    margin-left: 15px;
+}
+
+.nav-link:hover {
+    color: #ffe0d6 ;
+}
+
+.hero {
+    min-height: 560px;
+    padding: 100px 0 60px;
+    display: flex;
+    align-items: center;
+
+    background: linear-gradient(
+        135deg,
+        #fff0e8,
+        #ffe3ef
+        
+    );
+    background-image: url(https://i.pinimg.com/1200x/25/2e/a6/252ea6918b99beee2ba788b3605ee233.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.hero-subtitle {
+    color: #d63384;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.hero-text {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+.btn-principal {
+    background: linear-gradient(90deg, #e85d04, #d63384);
+    border: none;
+    color: #ffffff;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.btn-principal:hover {
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+.features {
+    background-color: #ffffff;
+}
+
+.section-subtitle {
+    color: #e85d04;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+.features h2,
+.contato h2 {
+    font-weight: bold;
+}
+
+.section-description {
+    color: #6c5a5a;
+}
+
+.contato {
+    background: linear-gradient(
+        135deg,
+        #ffe3ef,
+        #fff0e8
+    );
+}
+
+.contact-box {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+
+    box-shadow: 0 10px 30px rgba(61, 37, 37, 0.08);
+}
+
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border: 1px solid #e8b9ad;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.form-control:focus {
+    border-color: #d63384;
+
+    box-shadow: 0 0 0 0.2rem rgba(214, 51, 132, 0.15);
+}
+
+
+.footer {
+    background: linear-gradient(90deg, #e85d04, #d63384);
+    color: #ffffff;
+    padding: 25px 0;
+}
+
+/*Responsividade*/
+
+/*Tablet*/
+@media (max-width: 991px) {
+
+    .hero {
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-text {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
+
+/*Celular*/
+@media (max-width: 576px) {
+
+    .hero {
+        padding: 120px 20px 60px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero-text {
+        font-size: 1rem;
+    }
+
+    .contact-box {
+        padding: 25px 20px;
+    }
+
+    .navbar {
+        padding: 12px 10px;
+    }
+
+}
